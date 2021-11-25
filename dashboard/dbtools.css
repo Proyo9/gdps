@@ -1,0 +1,21 @@
+input {
+	margin: 4px;
+	width: 200px;
+	height: 25px;
+	border: solid;
+	font-family: Arial;
+	text-align: center;
+    margin-left: 0 auto; 
+    display: inline-block;
+  }
+  form {
+    margin: 0 auto; 
+    width:250px;
+  }
+  h1 {
+	color: black;
+	font-size: 100px;
+	font-family: Arial;
+	margin: 0px;
+	text-align: center;
+  }

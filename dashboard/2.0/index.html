@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PY GDPS | 2.0</title>
+    <style>
+      h1 {
+        color: white;
+        font-size: 100px;
+        font-family: Arial;
+        margin: 0px;
+        text-align: center;
+        background-image: linear-gradient(black, #1b1b1b);
+      }
+      p {
+        color: rgb(218, 218, 218);
+        font-size: 50px;
+        font-family: Arial;
+        margin: 10px;
+        text-align: center;
+      }
+      h3 {
+        color: rgb(218, 218, 218);
+        font-size: 35px;
+        font-family: Arial;
+        margin: 10px;
+        text-align: center;
+      }
+      h4 {
+        color: rgb(99, 99, 99);
+        font-size: 15px;
+        font-family: Arial;
+        margin: 0px;
+        text-align: center;
+      }
+      button {
+        border: 5px solid #000;
+        background: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: Arial;
+        cursor: auto;
+        margin: 10px;
+        color: black;
+        text-decoration: none;
+      }
+      body {
+      height: 1300px;
+      background-color: #1e2531;
+      margin-bottom: 0;
+      background-image: linear-gradient(#1e2531, black);
+      }
+      a {
+        position: relative;
+        display: inline-block;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.4);
+        background: #262c37;
+        letter-spacing: 2px;
+        font-size: 16px;
+        transition: 0.5s;
+      }
+      a:hover {
+        color: rgba(255, 255, 255, 1);
+      }
+      a span {
+        display: block;
+        position: absolute;
+        background: #2894ff;
+      }
+      a span:nth-child(1) {
+        left: 0;
+        bottom: 0;
+        width: 2px;
+        height: 100%;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: transform 0.5s;
+      }
+      a:hover span:nth-child(1) {
+        transform: scaleY(1);
+        transform-origin: bottom;
+        transition: transform 0.5s;
+      }
+      a span:nth-child(2) {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s;
+      }
+      a:hover span:nth-child(2) {
+        transform: scaleX(1);
+        transform-origin: left;
+        transition: transform 0.5s;
+      }
+      a span:nth-child(3) {
+        right: 0;
+        bottom: 0;
+        width: 2px;
+        height: 100%;
+        transform: scaleY(0);
+        transform-origin: bottom;
+        transition: transform 0.5s;
+      }
+      a:hover span:nth-child(3) {
+        transform: scaleY(1);
+        transform-origin: top;
+        transition: transform 0.5s;
+      }
+      a span:nth-child(4) {
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.5s;
+      }
+      a:hover span:nth-child(4) {
+        transform: scaleX(1);
+        transform-origin: right;
+        transition: transform 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>2.0 Dashboard</h1>
+    <br><p>Account Management</p>
+    <p><a href="http://pyps20srv94.7m.pl/database/tools/account/changeUsername.php">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Change Username
+    </a><p><a href="http://pyps20srv94.7m.pl/database/tools/account/changePassword.php">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Change Password
+    </a>
+	<br><br><p>Upload</p>
+	<p><a href="http://pyps20srv94.7m.pl/database/tools/levelReupload.php">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		Level Reupload
+	  </a><p><a href="http://pyps20srv94.7m.pl/database/tools/levelToGD.php">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		Level to GD
+	  </a>
+	</a><p><a href="http://pyps20srv94.7m.pl/database/tools/songAdd.php">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		Upload Song
+	  </a>
+	  <br><br><p>Other</p>
+	</a><p><a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSf39eRBlWX_fsVtfVIe2JLEkNTpVEjttUCIgVFvYNpvE5bxaA/viewform?usp=send_form">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		Verify Song
+	  </a>
+  </body>
+</html>
